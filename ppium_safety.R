@@ -22,7 +22,7 @@ for(i in firstRows){
 
 #### ppium_api table (pharmapendium) ####
 
-setwd("C:/Users/CAPUND/OneDrive - Pfizer/Desktop/ppium_db")
+setwd("C:/Users/CAPUND/OneDrive - Pfizer/Desktop/ppium_db/CompTox_auto_comptox_drug")
 library(data.table)
 library(RMySQL)
 library(dplyr)
@@ -229,7 +229,7 @@ dbc <- RMariaDB::dbConnect(RMariaDB::MariaDB(),
 # read in previous table from above
 dose_info <- as.data.table(dbGetQuery(dbc,
                                       "SELECT ppium_api.* FROM ppium_api"))
-setwd("C:/Users/CAPUND/OneDrive - Pfizer/Desktop/ppium_db")
+setwd("C:/Users/CAPUND/OneDrive - Pfizer/Desktop/ppium_db/CompTox_auto_comptox_drug")
 # read in manually created table from Matt, may need updates
 dose_curated <- fread("ppm_dose_curation_upload_20200331.csv")
 dose_curated[ , cid:= NULL]

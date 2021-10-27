@@ -1,0 +1,112 @@
+﻿drug,route_group,dose,dose unit,Converted dose (mg),Cmax,MW,unit,link
+acetophenazine maleate,,,,,NA,,,
+alendronate sodium,Oral,70,mg,70,64.78,271.08,ng/ml,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513855/
+ambenonium chloride,Oral,10,mg,10,0.84,608.5,ng/ml,https://reader.elsevier.com/reader/sd/pii/S0378434700825876?token=23BB6089618E8B5FB0305E4A6D941631E8533843BA0C6353340BCE6AF06FC12D75FB0C8CC6BDB53B346609EE2F5C7017
+aminophylline,Oral,390,mg,390,6.9,420.43,mg/l,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1401615/?page=3
+amphetamine,Oral,10,mg,10,43.3,135.21,ng/ml,https://www.pharmapendium.com/pk/result/1593535687930
+atropine sulfate,Intramuscular,2,mg,2,12.3,676.8,ng/ml,https://www.pharmapendium.com/browse/fda/Atropine%20Sulfate/277dfead3c59c3f62d373a4f32587afb?reference=13
+azathioprine,Oral,50,mg,50,16.9,277.27,ng/ml,https://gut.bmj.com/content/39/1/63
+bendroflumethiazide,Oral,10,mg,10,86,421.4,ng/ml,https://pubmed.ncbi.nlm.nih.gov/902450/
+benoxaprofen,Oral,100,mg,100,13,301.72,ug/ml,https://bpspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2125.1977.tb00789.x
+benzphetamine hydrochloride,,,,,NA,,,
+benztropine mesylate,Oral,1.5,mg,1.5,2.5,403.5,ng/ml,https://www.drugbank.ca/drugs/DB00245
+betaine,Oral,50,mg/kg,0.714285714,0.9,117.15,mmol/L,https://www.pharmapendium.com/pk/result/1593536820416
+betamethasone,IV,10.6,mg,10.6,101,392.5,ng/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007/BF00542353
+bethanechol chloride,,,,,NA,,,
+brompheniramine maleate,Oral,0.13,mg/kg,0.001857143,11.6,435.3,ng/ml,https://www.sciencedirect.com/science/article/pii/0091674982900094?via%3Dihub
+carbenicillin indanyl sodium,Oral,500,mg,500,6.5,516.5,ug/ml,https://www.rxlist.com/geocillin-drug.htm#clinpharm
+carteolol hydrochloride,Oral,30,mg,30,113,328.83,ng/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007/BF00613462
+chlordiazepoxide hydrochloride,Oral,25,mg,25,0.86,336.2,ug/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.2165/00003088-197803050-00004
+chlormezanone,Oral,400,mg,400,4.62,273.74,mg/l,https://pubmed.ncbi.nlm.nih.gov/2399514/
+chloroquine phosphate,Oral,10,mg/kg,0.142857143,56.6,515.9,ng/ml,https://pubmed.ncbi.nlm.nih.gov/11991015/
+chlorothiazide,p.o.,125,mg,125,637,295.7,ng/ml,https://onlinelibrary.wiley.com/doi/pdf/10.1002/bdd.2510070602
+cholecalciferol,Oral,"100,000",IU,2.5,42,384.6,ng/ml,https://pubmed.ncbi.nlm.nih.gov/18326608/
+clofazimine,Oral,200,mg,200,469,473.4,pmol/g,https://www.pharmapendium.com/pk/result/1593542347752
+clomiphene citrate,Oral,50,mg,50,4.8,598.1,ng/ml,https://www.pharmapendium.com/pk/result/1592517195524
+cloxacillin sodium,IV,4,g,4000,397,475.9,ug/ml,https://www.pharmapendium.com/pk/result/1592517302259
+cortisone acetate,Oral,50,mg,50,739,402.5,nmol/L,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1463287/?page=1
+cromolyn sodium,inhaled,20,mg,20,12.6,512.3,ng/ml,http://jpet.aspetjournals.org/content/241/3/1028.long
+cyclophosphamide,IV,600,mg/m2,186,30.8,261.08,ug/ml,https://www.pharmapendium.com/pk/result/1592518587156
+cyproheptadine hydrochloride,Oral,8,mg,8,30,323.9,ug/L,https://www.researchgate.net/publication/8619244_A_Comparison_of_the_Pharmacokinetics_of_Oral_and_Sublingual_Cyproheptadine
+dantrolene sodium,IV,2.5,mg/kg,0.035714286,12100,336.23,ng/ml,https://www.pharmapendium.com/pk/result/1592519454121
+dapagliflozin,Oral,10,mg,10,157.9,408.9,ng/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007/s40262-013-0104-3#Tab1
+deferasirox,Oral,10,mg/kg,0.142857143,54.86,373.4,umol/L,https://www.pharmapendium.com/pk/result/1592519965411
+deflazacort,Oral,36,mg,36,139,441.5,ng/ml,https://www.pharmapendium.com/pk/result/1592520079575
+dexbrompheniramine maleate,,,,,NA,,,
+dichlorphenamide,Oral,100,mg,100,1512,305.2,ng/ml,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585844/
+diethylpropion hydrochloride,,,,,NA,,,
+diphenidol hydrochloride,Oral,50,mg,50,321.15,345.9,ug/L,https://www.researchgate.net/publication/293082280_Pharmacokinetics_of_difenidol_in_healthy_volunteers
+diphenoxylate hydrochloride,Oral,5,mg,5,9.5,489,ng/ml,https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1002/cpt1972133407
+droxidopa,Oral,300,mg,300,3160 ,213.19,ng/ml,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5833910/
+ergocalciferol,Oral,"300,000",IU,7.5,43.28,396.6,nmol/L,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjs77zggJzqAhXOc98KHUv0Ay44ChAWMAF6BAgIEAE&url=https%3A%2F%2Fwww.aafp.org%2Fafp%2F2013%2F0215%2Fod2.pdf&usg=AOvVaw2J7KpitNURjvXJniF2fngL
+estramustine phosphate sodium,IV,1500,mg/m2,466,1.32,564.3,uM,https://www.pharmapendium.com/pk/result/1592521810229
+etidronate disodium,,,,,NA,,,
+flavoxate hydrochloride,IV,2.55,mg/kg,0.036428571,1.6,427.9,ug/ml,https://www.sciencedirect.com/science/article/pii/0031698976900412/pdf?md5=ce25bc70eccdb6be459b1cf13ccb6ba0&pid=1-s2.0-0031698976900412-main.pdf
+fludarabine phosphate,Oral,50,mg,50,0.325,365.21,ug/ml,https://www.pharmapendium.com/pk/result/1592521996172
+fludrocortisone acetate,Oral,50,μg,0.05,0.36,422.5,ng/ml,https://pubmed.ncbi.nlm.nih.gov/23228845/
+griseofulvin,Oral,250,mg,250,600.61,352.8,ng/ml,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwit3sbHzI7qAhVrmXIEHUl7CjAQFjACegQIAhAB&url=https%3A%2F%2Fwww.accessdata.fda.gov%2Fdrugsatfda_docs%2Flabel%2F2007%2F050475s053lbl.pdf&usg=AOvVaw2hgI3PQJqRW5YF_BsBGDi3
+guanethidine monosulfate,,,,,NA,,,
+hydralazine hydrochloride,Oral,10,mg,10,18.06,196.64,ug/ml,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6225918/
+hydroxyzine hydrochloride,Oral,0.7,mg/kg,0.01,72.5,447.8,ng/ml,https://pubmed.ncbi.nlm.nih.gov/6141198/
+leucovorin calcium,Oral,25,mg,25,393,511.5,ng/ml,https://www.pharmapendium.com/pk/result/1592522287769
+levocetirizine dihydrochloride,Oral,5,mg,5,175,461.8,ng/ml,https://www.pharmapendium.com/pk/result/1592522379502
+levomethadyl acetate hydrochloride,Oral,60,mg,60,47,390,ng/ml,https://www.pharmapendium.com/pk/result/1592522463428
+lidocaine hydrochloride,inocular,3.5,mg,3.5,50,270.8,ng/ml,https://www.pharmapendium.com/pk/result/1592522577358
+linagliptin,Oral,5,mg,5,16.7,472.5,nmol/L,https://www.pharmapendium.com/pk/result/1592522680788
+lomustine,Oral,130,mg/m2,40,0.5,233.69,ug/ml,https://www.pharmapendium.com/pk/result/1592522760672
+mecamylamine hydrochloride,Oral,20,mg,20,64.5 ,203.75,ng/ml,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5510063/
+menadione,IV,1360,mg/m2,423,4.2,172.18,uM,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007/s10637-005-6731-2
+mepazine acetate,,,,,NA,,,
+mepenzolate bromide,,,,,NA,,,
+meprobamate/carisoprodol,Oral,400,mg,400,7.7,218.25,ug/ml,https://books.google.com/books?id=BfdighlyGiwC&pg=PA890&lpg=PA890&dq=meprobamate+plasma+concentration&source=bl&ots=Kuh3rPp9Xc&sig=ACfU3U1_up04HCkVsR41OJSjNR0CzmOF8w&hl=en&sa=X&ved=2ahUKEwjXlYLv3J_qAhXBlXIEHXcWCYk4FBDoATABegQIDBAB#v=onepage&q=meprobamate%20plasma%20concentration&f=false
+metaproterenol sulfate,Oral,10,mg,10,13,520.6,ng/ml,https://www.sciencedirect.com/science/article/abs/pii/S0022354915472211?via%3Dihub
+methamphetamine hydrochloride,Oral,30,mg,30,94.1,185.69,ug/L,https://onlinelibrary.wiley.com/doi/full/10.1111/j.1360-0443.2009.02564.x
+methazolamide,Oral,50,mg,50,11.4,236.3,ug/ml,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiH-_OxvJbqAhU2lHIEHZTkCAIQFjAHegQICBAB&url=https%3A%2F%2Fwww.aapharma.ca%2Fdownloads%2Fen%2FPIL%2F2016%2FMethazolamide-PM.pdf&usg=AOvVaw1WYpTYb_2CB2DcHGID8-3q
+methscopolamine bromide,,,,,NA,,,
+methsuximide,Oral,1200,mg,1200,7,203.24,ug/ml,https://pubchem.ncbi.nlm.nih.gov/compound/Methsuximide#section=Absorption-Distribution-and-Excretion
+methyltestosterone,Oral,10,mg,10,30 ,302.5,ng/ml,https://www.sciencedirect.com/science/article/abs/pii/S002235491538730X
+methysergide maleate,IV,1,mg,1,1.4,469.5,ng/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007/BF00614199
+metyrosine,Oral,250,mg,250,"6,310",195.21,ng/ml,https://pubmed.ncbi.nlm.nih.gov/29353821/
+molindone hydrochloride,Oral,400,mg,400,0.13,312.83,mg/L,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiYnZC34p3qAhW7lHIEHdSZAtgQFjACegQIChAD&url=https%3A%2F%2Facademic.oup.com%2Fjat%2Farticle-pdf%2F28%2F6%2F533%2F2683855%2F28-6-533.pdf&usg=AOvVaw0R8wD_RP90n-yWRTR0Jq0_
+neomycin sulfate,Oral,4,g,4000,6.1,712.7,ug/ml,https://pubchem.ncbi.nlm.nih.gov/compound/Neomycin#section=Absorption-Distribution-and-Excretion
+nialamide,,,,,NA,,,
+nitazoxanide,Oral,1000,mg,1000,15.9,307.28,ug/ml ,https://www.pharmapendium.com/pk/result/1592523317510
+nitrofurantoin,Oral,100,mg,100,0.69,238.16,mg/L,https://www.pharmapendium.com/pk/result/1592523424426
+nomifensine maleate,Oral,100,mg,100,0.766,354.4,umol/L,https://www.researchgate.net/publication/19205995_Metabolism_of_nomifensine_after_Oral_and_intravenous_administration/link/54e0623a0cf2953c22b48f27/download
+orphenadrine hydrochloride,Oral,100,mg,100,131.8,305.8,ng/ml,https://login.openathens.net/saml/2/sso/_/c/proxy.openathens.net?SAMLRequest=jVJdTwIxEPwrTd%2Fv2isF7xoOgxAjiR9ETh98MaW3QpOjxdueyr%2B3giSaqPGtSXdmdmdmePq2acgLtGi9K2mWckrAGV9btyrpXXWe5PR0NES9abZq3IW1u4XnDjCQiHOo9h8l7VqnvEaLyukNoApGLcZXl0qkXG1bH7zxDSVjRGhDFJp4h90G2gW0L9bA3e1lSdchbFEx1viVdWkEve1SvwWnwxocpg4C%2BxBjgmmDzAijee%2FEJLnMTSJ5HV89kyd1ZrKcL3PZzyQl07iojQz7274L%2FEyN6NkjM%2BwneUpm05I%2B1YNCLHMh64GUvYEp6l5dmyKTUmgOkMUpxA5mDoN2oaSCC57wQSL6leAqK1S%2Fn8qT4oGS%2BacvZ9Yd3P7LxOVhCNVFVc2T%2Bc2iouT%2BmFocoIeM1F68%2FRLO37T6mAgdHe353XlwwYbdv6wfsi%2FbHOtzHeVn07lvrNmRcdP410kLOkCsHWWjA%2BR7yUbv&RelayState=https%3A%2F%2Flink-springer-com.proxy.openathens.net%2Fcontent%2Fpdf%2F10.1007%2FBF00637624.pdf
+oxymetholone,Oral,50,mg,50,18.8,332.5,ng/ml,https://www.sciencedirect.com/science/article/pii/S157002320200243X#TBL1
+pemoline,Oral,50,mg,50,0.98,176.17,mg/L,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1429813/
+penicillin g benzathine,Intramuscular,900,mg,900,19.8,981.2,ug/L,https://www.pharmapendium.com/pk/result/1592523599493
+penicillin v potassium,Oral,500,mg,500,5,388.5,ug/ml,https://www.drugbank.ca/drugs/DB00417
+pentazocine hydrochloride,Intramuscular,80,mg,80,227,321.9,ng/ml,https://pubmed.ncbi.nlm.nih.gov/3709032/
+perphenazine,Oral,6,mg,6,2.35,404,nM,https://www.pharmapendium.com/pk/result/1592523796068
+phendimetrazine tartrate,,,,,NA,,,
+phentermine,Oral,30,mg,30,94,149.23,ng/ml,https://www.pharmapendium.com/pk/result/1592523937108
+phytonadione,Intramuscular,0.2,mg,0.2,59.3,450.7,ng/ml,https://www.wellrx.com/mephyton/pediactric-monographs/
+pipamazine,,,,,NA,,,
+primidone,Oral,250,mg,250,4.84,218.25,ng/ml,https://www.pharmapendium.com/pk/result/1592524084601
+procarbazine hydrochloride,Oral,296,mg/m2,92,321,257.76,ng/ml,https://clincancerres.aacrjournals.org/content/12/17/5174.long#F1
+propantheline bromide,IV,15,mg,15,876.8,448.4,ng/ml,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1429618/?page=3
+propylthiouracil,Oral,280,mg/m2,87,18,170.23,ug/ml,https://pubmed.ncbi.nlm.nih.gov/6689066/
+protriptyline hydrochloride,Oral,30,mg,30,14.1,299.8,ng/ml,https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1002/cpt1978235580
+pyridoxine hydrochloride,Oral,600,mg,600,25053,205.64,nmol/L,https://www.researchgate.net/publication/14602969_Pharmacokinetics_of_vitamin_B6_supplements_in_humans/link/0deec53a8414b5b0f8000000/download
+sitagliptin phosphate,Oral,25,mg,25,177,505.31,nmol/L,https://www.pharmapendium.com/pk/result/1592524291412
+sulfadimethoxine,Oral,883,mg,883,70,310.33,ng/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007%2FBF01970146
+sulfamethazine,,,,,NA,,,
+sulfamethizole,Oral,2,g,2000,60,270.3,ug/ml,https://pubchem.ncbi.nlm.nih.gov/compound/Sulfamethizole#section=Absorption-Distribution-and-Excretion
+sulfathiazole,,,,,NA,,,
+suvorexant,Oral,10,mg,10,0.428,450.9,umol/L,https://www.pharmapendium.com/pk/result/1592524474537
+terbutaline sulfate,IV,0.003,mg/kg,4.29E-05,16,548.6,ng/ml,https://www.pharmapendium.com/pk/result/1592524563167
+testolactone,,,,,NA,,,
+thiabendazole,Oral,500,mg,500,13.93,201.25,uM,https://www.pharmapendium.com/pk/result/1592524693765
+thioguanine,Oral,40,mg/m2,12,313,167.19,pmol/mL,https://www.pharmapendium.com/pk/result/1592524780948
+ticrynafen,Oral,500,mg,500,4.5,331.2,mg/dl,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007%2FBF03189454
+tranylcypromine sulfate,Oral,20,mg,20,112,364.5,ng/ml,https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1038/clpt.1986.205
+trichlormethiazide,Oral,4,mg,4,42.2,380.7,ng/ml,https://link-springer-com.eu1.proxy.openathens.net/article/10.1007%2FBF00542099
+triclabendazole,Oral,10,mg/kg,0.142857143,38.6,359.7,umol/L,https://www.pharmapendium.com/pk/result/1592583661363
+trientine hydrochloride,Oral,600,mg,600,0.798,219.15,mg/L,https://accp1.onlinelibrary.wiley.com/doi/epdf/10.1177/0091270009349379
+trifluridine,,60,mg,60,3547.07,296.2,ng/ml,https://www.pharmapendium.com/pk/result/1593605022118
+trihexyphenidyl hydrochloride,Oral,4,mg,4,7.15,337.9,ng/ml,https://pubmed.ncbi.nlm.nih.gov/7658345/
+trilostane,,,mg,,NA,,,
+trimeprazine tartrate,Oral,10,mg,10,3.8,747,ng/ml,https://reader.elsevier.com/reader/sd/pii/0160540284900615?token=28293F7342849F5F637D14AA32178EE65DDDF4090769B14169A0415B0AC505EA794FD2D5CBBAA92D3F766352B13E3ED3
+uracil mustard,,,mg,,NA,,,
