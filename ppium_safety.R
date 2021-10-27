@@ -380,7 +380,7 @@ dbWriteTable(conn  = zoomapdb,
              row.names = FALSE,
              append = TRUE)
 
-#### drug_safety table (comptox_drug)
+#### drug_safety table (comptox_drug) ####
 library(RMySQL)
 library(data.table)
 # make first connection to read in dleaned_dose from pharmapendium db
