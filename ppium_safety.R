@@ -18,7 +18,7 @@ for(i in firstRows){
   data_all <- rbind(data_all, ppium_dt1, fill=TRUE)
 }
 
-#save.image("safety_ppium_6_25_20.RData") # change to current date 
+saveRDS(data_all, "safety_ppium_11_3_21.rds") # change to current date 
 
 #### ppium_api table (pharmapendium) ####
 
@@ -35,15 +35,29 @@ zoomapcon <- function(){dbConnect(MySQL(), user='martm255',
 zoomapdb <- zoomapcon()
 
 # load rds/RData from api pull
-load("safety_ppium_6_25_20.RData", envir = parent.frame(), verbose = FALSE)
+data_all <- readRDS("safety_ppium_11_3_21.rds") # change to reflect new rds
 
 # sub and set new names, may need to change to specific col names
-data_sub<- data_all[, c(3:31)]
+#data_sub<- data_all[, c(3:32)]
+# for previous .rdata file
 setnames(data_sub, old = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29),
          new=c("ppium_id", "drug","doc_srcshort", "doc_src", "doc_year", "historic",
                "article", "heading", "doc_id", "doc_nm", "doc_type", "doc_length", "doc_pg", "doc_file", "doc_sect", "doc_citation",
                "doc_issn", "journal", "doc_pgs", "doc_vol",
                "doc_doi", "dose", "dose_type", "pt", "species", "src", "smiles", "doc_year_2", "route"))
+# for updated 11/4/21 colnames
+data_sub<- data_all[, c(3, 5:32)]
+setnames(data_sub, old = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29),
+         new=c("ppium_id", "drug","doc_id", 
+               "doc_nm", "doc_srcshort", "doc_src",
+               "doc_type", "doc_year", "doc_length", 
+               "doc_pg", "historic", "doc_file", 
+               "doc_sect", "doc_citation", "doc_issn",
+               "journal", "doc_pgs", "doc_vol",
+               "doc_doi", "dose", "dose_type", 
+               "route", "pt", "species",
+                "src", "doc_year_2", "smiles",
+                "article", "heading"))
 
 # map in meddra from ppium_meddra table in pharmapendium 
 map_query <- "SELECT
@@ -225,10 +239,14 @@ dbc <- RMariaDB::dbConnect(RMariaDB::MariaDB(),
                            host= "10.131.112.20",
                            username = 'zoomap',
                            password = 'ZooMap#2018')
-
-# read in previous table from above
+## SQL storage
+# read in previous table from above, DO NOT NEED if read from rds
 dose_info <- as.data.table(dbGetQuery(dbc,
                                       "SELECT ppium_api.* FROM ppium_api"))
+### From rds
+# if reading from rds DO NOT NEED SQL pull 
+dose_info <- ppium_api
+
 setwd("C:/Users/CAPUND/OneDrive - Pfizer/Desktop/ppium_db/CompTox_auto_comptox_drug")
 # read in manually created table from Matt, may need updates
 dose_curated <- fread("ppm_dose_curation_upload_20200331.csv")
@@ -236,7 +254,7 @@ dose_curated[ , cid:= NULL]
 dose_curated[ , dups := duplicated(dose)]
 dose_curated <- dose_curated[dups==F]
 dose_curated[ , dups := NULL]
-dose_merge1 <- merge(dose_info, dose_curated, by = "dose")
+dose_merge1 <- merge(dose_info, dose_curated, by = "dose", all = TRUE)
 
 # read in conversion csv, static 
 dose_conv <- fread("dose_unit_conversion.csv")
@@ -383,7 +401,9 @@ dbWriteTable(conn  = zoomapdb,
 #### drug_safety table (comptox_drug) ####
 library(RMySQL)
 library(data.table)
-# make first connection to read in dleaned_dose from pharmapendium db
+
+## SQL storage
+# make first connection to read in cleaned_dose from pharmapendium db, DO NOT need if from rds
 zoomapcon <- function(){dbConnect(MySQL(), user='martm255',
                                   password='GiaRose#0509',
                                   dbname='pharmapendium',
@@ -392,6 +412,9 @@ zoomapdb <- zoomapcon()
 
 drug_safety <- as.data.table(dbGetQuery(zoomapdb,
                                         "SELECT cleaned_dose.* FROM cleaned_dose"))
+## From rds
+# DO NOT NEED SQL pull
+drug_safety <- dose_merge
 drug_safety <- drug_safety[doc_srcshort=="EMEA", doc_srcshort :="EMA"]
 
 # drug safety links
@@ -526,8 +549,8 @@ zoomapcon <- function(){dbConnect(MySQL(), user='martm255',
                                   host='10.131.112.20')}
 zoomapdb <- zoomapcon()
 
-drug_safety2.sql1 <- "DROP TABLE IF EXISTS drug_safety;"      
-drug_safety2.sql2 <- "CREATE TABLE IF NOT EXISTS drug_safety (
+drug_safety2.sql1 <- "DROP TABLE IF EXISTS drug_safety_11_4_21;"      
+drug_safety2.sql2 <- "CREATE TABLE IF NOT EXISTS drug_safety_11_4_21 (
 drug varchar(300) NOT NULL,
 effect varchar(150) NOT NULL,
 species varchar(10) DEFAULT NULL,
@@ -554,7 +577,7 @@ doc_order integer(1) DEFAULT NULL,
 link varchar(250) DEFAULT NULL,
 multiple varchar(5) DEFAULT NULL
 ) ENGINE = MYISAM DEFAULT CHARSET = utf8;"
-drug_safety2.sql3 <- "ALTER TABLE drug_safety
+drug_safety2.sql3 <- "ALTER TABLE drug_safety_11_4_21
 ADD KEY drug (drug),
 ADD KEY effect (effect),
 ADD KEY species (species),
@@ -589,7 +612,7 @@ write.table(out,file="tmp.txt", fileEncoding ="utf8", row.names = FALSE)
 out <- read.table(file="tmp.txt",encoding="latin1", fill = TRUE, header = TRUE) #header was false
 
 dbWriteTable(conn  = zoomapdb,
-             name  = "drug_safety",
+             name  = "drug_safety_11_4_21",
              value = out,
              row.names = FALSE,
              append = TRUE)

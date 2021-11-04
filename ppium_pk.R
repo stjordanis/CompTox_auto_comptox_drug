@@ -5,7 +5,7 @@ library(jsonlite)
 url <- 'https://api.elsevier.com/pharma/pk/search?APIKey=035e274e3b4e2f68e0723e7550154328'
 #need code to get N or the total count for the query
 
-total_count <- 2058398 #set total_count to the total
+total_count <- 2175249 #set total_count to the total
 firstRows <- unique(c(seq(1, total_count, 500), total_count))  #then get the first row starting at 1 and going by 500 until the end of the list (including the final value in case it is not even)
 data_all <- data.table()
 
